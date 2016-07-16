@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "@RPG Launcher 0.1.0",
+    "description": "Beta version",
+    "version": "0.1.0",
+    "app": {
+        "background": {
+            "scripts": [
+                "background.js"
+            ]
+        }
+    },
+    "icons": {
+        "128": "icon.png"
+    },
+    "permissions": [
+        "clipboardWrite",
+        "clipboardRead",
+        "unlimitedStorage",
+        "geolocation"
+    ],
+    "short_name": "@RPG 0.1.0",
+    "offline_enabled": true,
+    "optional_permissions": [],
+    "externally_connectable": {
+        "ids": [],
+        "matches": [],
+        "accepts_tls_channel_id": false
+    }
+}
